@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Lib2Package</id>
+    <version>1.0.0</version>
+    <authors>John Doe</authors>
+    <description>Lib2 package</description>
+  </metadata>
+  <files>
+    <file src="..\Lib1\bin\Debug\netstandard2.0\Lib1.dll" target="lib\netstandard2.0" />
+    <file src=".\bin\Debug\netstandard2.0\Lib2.dll" target="lib\netstandard2.0" />
+  </files>
+</package>

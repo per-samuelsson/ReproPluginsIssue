@@ -11,7 +11,7 @@ namespace App1
         static void Main(string[] args)
         {
             var webAppPath = Path.GetFullPath(
-                Path.Combine("..", "AspNetCoreWebApp", "bin", "Debug", "netcoreapp2.1", "AspNetCoreWebApp.dll"));
+                Path.Combine("..", "AspNetCoreWebApp", "bin", "Debug", "netcoreapp2.0", "AspNetCoreWebApp.dll"));
             
             if (!File.Exists(webAppPath))
             {
